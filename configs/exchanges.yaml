@@ -1,0 +1,99 @@
+exchanges:
+  - name: Upbit
+    region: KR
+    event_hub_url: https://event.upbit.com/
+    announcement_url: https://support.upbit.com/
+    crawl_difficulty: high
+    rendering: mixed
+    priority: 2
+    cadence: twice_daily
+
+  - name: Bithumb
+    region: KR
+    event_hub_url: https://support.bithumb.com/
+    announcement_url: https://www.bithumb.com/customer_support/info
+    crawl_difficulty: high
+    rendering: mixed
+    priority: 2
+    cadence: twice_daily
+
+  - name: Coinone
+    region: KR
+    event_hub_url: https://coinone.co.kr/info/notice/
+    announcement_url: https://coinone.co.kr/info/notice/
+    crawl_difficulty: medium
+    rendering: mixed
+    priority: 2
+    cadence: twice_daily
+
+  - name: Korbit
+    region: KR
+    event_hub_url: https://www.korbit.co.kr/events/
+    announcement_url: https://www.korbit.co.kr/events/
+    crawl_difficulty: medium
+    rendering: mixed
+    priority: 2
+    cadence: daily
+
+  - name: GOPAX
+    region: KR
+    event_hub_url: https://academy.gopax.co.kr/
+    announcement_url: https://academy.gopax.co.kr/
+    crawl_difficulty: medium
+    rendering: mixed
+    priority: 3
+    cadence: daily
+
+  - name: Binance
+    region: GLOBAL
+    event_hub_url: https://www.binance.com/en/support/announcement
+    announcement_url: https://www.binance.com/en/support/announcement
+    crawl_difficulty: low
+    rendering: static
+    priority: 1
+    cadence: twice_daily
+
+  - name: Bybit
+    region: GLOBAL
+    event_hub_url: https://announcements.bybit.com/en/
+    announcement_url: https://announcements.bybit.com/en/
+    crawl_difficulty: low
+    rendering: static
+    priority: 1
+    cadence: twice_daily
+
+  - name: OKX
+    region: GLOBAL
+    event_hub_url: https://www.okx.com/campaigns/
+    announcement_url: https://www.okx.com/help
+    crawl_difficulty: medium
+    rendering: mixed
+    priority: 1
+    cadence: twice_daily
+
+  - name: Gate.io
+    region: GLOBAL
+    event_hub_url: https://www.gate.com/announcements
+    announcement_url: https://www.gate.com/announcements
+    crawl_difficulty: medium
+    rendering: mixed
+    priority: 1
+    cadence: twice_daily
+
+  - name: MEXC
+    region: GLOBAL
+    event_hub_url: https://www.mexc.com/support
+    announcement_url: https://www.mexc.com/support
+    crawl_difficulty: medium
+    rendering: mixed
+    priority: 2
+    cadence: daily
+
+  - name: Bitget
+    region: GLOBAL
+    event_hub_url: https://www.bitget.com/support
+    announcement_url: https://www.bitget.com/support
+    crawl_difficulty: low
+    rendering: static
+    priority: 1
+    cadence: twice_daily
